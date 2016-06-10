@@ -1,0 +1,33 @@
+ crsctl status resource -t
+--------------------------------------------------------------------------------
+Name           Target  State        Server                   State details
+--------------------------------------------------------------------------------
+Local Resources
+--------------------------------------------------------------------------------
+ora.DATA.dg
+               ONLINE  ONLINE       ora12c                   STABLE
+ora.DATB.dg
+               ONLINE  ONLINE       ora12c                   STABLE
+ora.LISTENER.lsnr
+               ONLINE  ONLINE       ora12c                   STABLE
+ora.asm
+               ONLINE  ONLINE       ora12c                   Started,STABLE
+ora.ons
+               OFFLINE OFFLINE      ora12c                   STABLE
+--------------------------------------------------------------------------------
+Cluster Resources
+--------------------------------------------------------------------------------
+ora.cssd
+      1        ONLINE  ONLINE       ora12c                   STABLE
+ora.diskmon
+      1        OFFLINE OFFLINE                               STABLE
+ora.evmd
+      1        ONLINE  ONLINE       ora12c                   STABLE
+--------------------------------------------------------------------------------
+
+
+crsctl status server
+NAME=ora12c
+STATE=ONLINE
+
+
