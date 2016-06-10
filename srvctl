@@ -6,3 +6,11 @@ srvctl status diskgroup -g DATB -a
 Disk Group DATB is running on ora12c
 Disk Group DATB is enabled
 
+srvctl status asm
+ASM is running on ora12c
+
+srvctl status listener
+Listener LISTENER is enabled
+Listener LISTENER is running on node(s): ora12c
+
+
